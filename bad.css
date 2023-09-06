@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppind', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.name{
+    color: white;
+    font-size: 30px;
+    font-weight: 50px;
+    padding: 40px ;
+}
+.name span{
+    color: #ff004f;
+    font-size: 35px;
+}
+.container{
+padding: 5px 10%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+    
+}
+nav ul li a span{
+    color: #ff004f;
+    font-size: 19px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    margin: 5px 20px;
+    float: left;
+    left: 80%;
+    bottom: 90px;
+}
+nav ul li a::after{
+    content: '';
+    color: red;
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+.pic img{
+   position: absolute;
+   margin-left: 42%;
+   margin-top: -44rem;
+}
+.header-content{
+    margin-bottom: 20%;
+    font-size: 30px;
+}
+.header-content h2{
+    font-size: 30px;
+    margin-top: 90px;
+}
+.header-content p{
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+.header-content h2 span{
+    color: #ff004f;
+    font-size: 35px;
+    font-weight: 40px;
+}
